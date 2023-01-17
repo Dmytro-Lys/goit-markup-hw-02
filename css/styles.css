@@ -1,0 +1,12 @@
+.img-portfolio > img {
+  width: 360px;
+  height: 300px;
+}
+.logo1 {
+  color: blue;
+  text-transform: uppercase;
+}
+.logo2 {
+  color: black;
+  text-transform: uppercase;
+}
