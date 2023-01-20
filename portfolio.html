@@ -4,90 +4,102 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body class="body">
     <header>
       <!--Navigation-->
       <nav>
         <!--Logo-->
-        <a href="."
+        <a class="logo" href="."
           ><span class="logo1">Web</span><span class="logo2">Studio</span></a
         >
-        <ul>
+        <ul class="portfolio-nav">
           <li><a href="index.html">Studio</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="portfolio-address">
         <ul>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
-    <main>
+    <main class="portfolio-main">
       <!-- buttons -->
-      <ul class="buttons-portfolio">
-        <li><button type="button">All</button></li>
-        <li><button type="button">Web Site</button></li>
-        <li><button type="button">App</button></li>
-        <li><button type="button">Design</button></li>
-        <li><button type="button">Marketing</button></li>
-      </ul>
-      <!-- images -->
-      <ul class="img-portfolio">
-        <li>
-          <img src="./images/img-portfolio1.jpg" alt="Banking App Interface" />
-          <h3>Banking App Interface Concept</h3>
-          <p>App</p>
-        </li>
-        <li>
-          <img src="./images/img-portfolio2.jpg" alt="Cashless payment" />
-          <h3>Cashless Payment</h3>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <img
-            src="./images/img-portfolio3.jpg"
-            alt="Title pages mediation app"
-          />
-          <h3>Meditaion App</h3>
-          <p>App</p>
-        </li>
-        <li>
-          <img src="./images/img-portfolio4.jpg" alt="Taxi cab" />
-          <h3>Taxi Service</h3>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <img src="./images/img-portfolio5.jpg" alt="Screen Illustration" />
-          <h3>Screen Illustrations</h3>
-          <p>Design</p>
-        </li>
-        <li>
-          <img src="./images/img-portfolio6.jpg" alt="Smiling girl" />
-          <h3>Online Courses</h3>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <img src="./images/img-portfolio7.jpg" alt="Instagram images" />
-          <h3>Instagram Stories Concept</h3>
-          <p>Design</p>
-        </li>
-        <li>
-          <img src="./images/img-portfolio8.jpg" alt="Girl carrying fruit" />
-          <h3>Organic Food</h3>
-          <p>Web Site</p>
-        </li>
-        <li>
-          <img src="./images/img-portfolio9.jpg" alt="Cup of fresh Coffee" />
-          <h3>Fresh Coffee</h3>
-          <p>Web Site</p>
-        </li>
-      </ul>
+      <section>
+        <h2 class="visually-hidden">Portfolio</h2>
+        <ul class="buttons-portfolio">
+          <li><button type="button">All</button></li>
+          <li><button type="button">Web Site</button></li>
+          <li><button type="button">App</button></li>
+          <li><button type="button">Design</button></li>
+          <li><button type="button">Marketing</button></li>
+        </ul>
+        <!-- images -->
+        <ul class="img-portfolio">
+          <li>
+            <img
+              src="./images/img-portfolio1.jpg"
+              alt="Banking App Interface"
+            />
+            <h3>Banking App Interface Concept</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/img-portfolio2.jpg" alt="Cashless payment" />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img-portfolio3.jpg"
+              alt="Title pages mediation app"
+            />
+            <h3>Meditaion App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/img-portfolio4.jpg" alt="Taxi cab" />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/img-portfolio5.jpg" alt="Screen Illustration" />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img src="./images/img-portfolio6.jpg" alt="Smiling girl" />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/img-portfolio7.jpg" alt="Instagram images" />
+            <h3>Instagram Stories Concept</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img src="./images/img-portfolio8.jpg" alt="Girl carrying fruit" />
+            <h3>Organic Food</h3>
+            <p>Web Site</p>
+          </li>
+          <li>
+            <img src="./images/img-portfolio9.jpg" alt="Cup of fresh Coffee" />
+            <h3>Fresh Coffee</h3>
+            <p>Web Site</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer>
       <!--Logo-->
