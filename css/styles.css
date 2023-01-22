@@ -221,9 +221,18 @@
   border: 1px solid var(--col-cornflower);
   width: 360px;
 }
+.portfolio-hero-a {
+  text-decoration: none;
+}
+.portfolio-hero-a:active,
+.portfolio-hero-a:hover {
+  background-color: var(--col-iris);
+}
+
 .portfolio-hero-img {
   height: 300px;
 }
+
 .portfolio-hero-h3 {
   font-weight: 500;
   font-size: 20px;
