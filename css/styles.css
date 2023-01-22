@@ -92,6 +92,7 @@
 .index-hero-btn {
   font-family: inherit;
   color: var(--col-white);
+  cursor: pointer;
   background-color: var(--col-iris);
   font-weight: 500;
   box-shadow: 0px 4px 4px var(--col-btn-shadow);
@@ -205,6 +206,7 @@
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--col-iris);
+  cursor: pointer;
   background-color: var(--col-cloud);
   border: 1px solid var(--col-cornflower);
   border-radius: 4px;
@@ -223,6 +225,10 @@
 }
 .portfolio-hero-a {
   text-decoration: none;
+}
+.portfolio-hero-a:active,
+.portfolio-hero-a:hover {
+  background-color: var(--col-iris);
 }
 
 .portfolio-hero-img {
