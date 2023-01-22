@@ -224,10 +224,10 @@
 .portfolio-hero-a {
   text-decoration: none;
 }
-.portfolio-hero-a:active,
+/* .portfolio-hero-a:active,
 .portfolio-hero-a:hover {
   background-color: var(--col-iris);
-}
+} */
 
 .portfolio-hero-img {
   height: 300px;
