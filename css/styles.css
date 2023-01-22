@@ -239,3 +239,6 @@
   line-height: calc(24 / 20);
   color: var(--col-navy-blue);
 }
+.portfolio-hero-p {
+  color: var(--col-slate);
+}
