@@ -23,9 +23,12 @@
   color: var(--col-slate);
 }
 /* header */
+.header {
+  border-bottom: 1px solid var(--col-cornflower);
+}
 /* logo */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: calc(24 / 18);
@@ -44,6 +47,7 @@
 }
 .nav-a {
   font-weight: 500;
+  line-height: calc(24 / 18);
   color: var(--col-navy-blue);
   text-decoration: none;
 }
@@ -75,7 +79,6 @@
   width: 494px;
   color: var(--col-white);
   text-align: center;
-  font-weight: 700;
   font-size: 56px;
   line-height: calc(60 / 56);
 }
@@ -85,6 +88,8 @@
   cursor: pointer;
   background-color: var(--col-iris);
   font-weight: 500;
+  line-height: calc(24 / 18);
+  letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px var(--col-btn-shadow);
   border-radius: 4px;
 }
@@ -110,7 +115,7 @@
   list-style: none;
 }
 .index-section1-item {
-  width: 264px;
+  line-height: calc(24 / 18);
 }
 .index-section1-h3 {
   font-weight: 500;
@@ -121,7 +126,6 @@
 
 /* index section2 work */
 .index-section2-h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(40 / 36);
   text-align: center;
@@ -143,7 +147,6 @@
   background-color: var(--col-cloud);
 }
 .index-section3-h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(40 / 36);
   text-align: center;
@@ -171,6 +174,7 @@
   color: var(--col-navy-blue);
 }
 .index-section3-cards-p {
+  line-height: calc(24 / 18);
   text-align: center;
 }
 /* footer */
@@ -182,16 +186,16 @@
 }
 .footer-p {
   color: var(--col-cornflower);
-  width: 264px;
+  line-height: calc(24 / 18);
 }
 /* portfolio */
 /* main */
 /* hero */
 .portfolio-hero-btns {
-  font-family: inherit;
   list-style: none;
 }
 .portfolio-hero-btn {
+  font-family: inherit;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--col-iris);
@@ -225,12 +229,13 @@
   height: 300px;
 }
 
-.portfolio-hero-h3 {
+.portfolio-hero-h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--col-navy-blue);
 }
 .portfolio-hero-p {
+  line-height: calc(24 / 18);
   color: var(--col-slate);
 }
