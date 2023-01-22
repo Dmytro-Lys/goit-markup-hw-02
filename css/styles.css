@@ -224,10 +224,6 @@
 .portfolio-hero-a {
   text-decoration: none;
 }
-/* .portfolio-hero-a:active,
-.portfolio-hero-a:hover {
-  background-color: var(--col-iris);
-} */
 
 .portfolio-hero-img {
   height: 300px;
@@ -238,7 +234,4 @@
   font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--col-navy-blue);
-}
-.portfolio-hero-p {
-  color: var(--col-slate);
 }
